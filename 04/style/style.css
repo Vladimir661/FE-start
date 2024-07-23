@@ -166,21 +166,23 @@ p{
     overflow: hidden;
 }
 .menu-items{
-    text-align: center;
-    /* margin-left: -8px; */
-    font-size: 20px;
+  text-align: center;
+  font-size: 0;
 }
 .menu-item{
-    display: inline-block;
-    font-size: 0;
+  display: inline-block;
+  /* margin-left: -8px; */
+  font-size: 20px;
 }
+
 .image-block{
-    border-radius: 10px;
-    background-color: gray;
+  border-radius: 10px;
+  background-color: gray;
+  padding: 30px;
 }
 .image-block:hover{
-    background-color: orange;
+  background-color: orange;
 }
 .image-block img{
-    width: 35px;
+  width: 35px;
 }

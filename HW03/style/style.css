@@ -1,0 +1,113 @@
+* {
+    box-sizing: content-box;
+}
+body{
+    background-color: #f3b3b3;
+}
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+.inter-medium {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+} 
+.inter-semi-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+.screen{
+    background-color: #ffffff;
+    margin: 75px auto 75px auto;
+    width: 480px;
+    height: 800px;
+    border-radius: 25px;
+    padding: 35px 25px 90px 25px;
+}
+.search{
+    border-radius: 12px;
+    border: 0;
+    background: rgb(239, 239, 239);
+    width: 450px;
+    height: 45px;
+    left: 25px;
+    top: 165px;
+}
+h5{
+    color: rgb(196, 196, 196);
+}
+.food-items{
+    font-size: 20px;
+}
+.food-item{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 35px;
+    text-align: center;
+    vertical-align: text-top;
+        &:hover{
+            h5{
+                color: rgb(0, 0, 0);
+            }
+        }
+    }
+.image-block{
+    border-radius: 12px;
+    background: rgb(239, 239, 239);
+    padding: 30px;
+}
+.image-block:hover{
+    background: rgb(234, 226, 183);
+}
+.image-block img{
+    width: 37px;
+    height: 37px;
+}
+.burgers {
+    display: flex;
+    flex-direction: column;
+} 
+.burgers .burger-envelope {
+    margin-bottom: 15px;
+}
+.burgers .burger-envelope:last-child {
+    margin-bottom: 0;
+}
+.burger-title {
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+.burger-envelope {
+    padding: 15px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgb(230, 230, 230);
+    background: rgb(255, 255, 255);
+}
+.burger-img {
+    margin: 15px 5px 15px 15px;
+  }
+  .burger-info {
+    width: 100%;
+    padding-left: 5px;
+    line-height: 1;
+  }
+  .bname {
+    font-size: 15px;
+    color: rgb(0, 48, 73);
+    margin-top: 20px;
+  }
+  .bprice {
+    font-size: 15px;
+    color: rgb(214, 40, 40);
+  }
+  
