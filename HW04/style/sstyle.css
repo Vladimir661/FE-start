@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(229, 229, 229);
+}
+.squares{
+    width: 512px;
+    height: 512px;
+}
+.diia{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    top: 100px;
+    left: 700px;
+    border: 1px;
+    z-index: 1;
+}
+.imgd{
+    position: sticky;
+    margin: 128px 101px 201px 101px;
+}
+.flag{
+    border-radius: 6px;
+    background: linear-gradient(180.00deg, rgb(33, 55, 252),rgb(33, 55, 251) 50.007%,rgb(255, 216, 75) 50.041%,rgb(255, 216, 75) 100%);
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    top: 343px;
+    left: 216px;
+}
+.square{
+    background: linear-gradient(to bottom, rgb(33, 55, 252) 50%, rgb(255, 206, 34) 50%);
+    position: absolute;
+    top: 550px;
+    left: 1150px;
+    z-index: 3;
+}
+.imgg{
+    position: relative;
+    margin: 145px 56px 140px 56px;
+}
+.circle{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    right: 750px;
+    top: 1000px;
+    z-index: 2;
+}
+.circle-flag{
+    position:sticky;
+    background: linear-gradient(to bottom, rgb(33, 55, 252) 50%, rgb(255, 206, 34) 50%);
+    width: 444px;
+    height: 444px;
+    border-radius: 222px;
+    margin: 34px 34px;
+}
+.gimg{
+position: absolute;
+left: 77.26px;
+top: 249.86px;
+z-index: 5;
+}
+.triangle-top-left.one{
+    position: absolute;
+    border-top: 11px solid rgb(33, 55, 252);
+    border-right: 11px solid transparent;
+    top: 256px;
+    left: 174px;
+}
+.triangle-top-left.two{
+    position: absolute;
+    border-top: 10px solid rgb(33, 55, 252);
+    border-right: 9px solid transparent;
+    top: 256px;
+    left: 250px;
+    z-index: 4;
+}
+.triangle-top-left.three{
+    position: absolute;
+    border-top: 11.5px solid rgb(33, 55, 252);
+    border-right: 17.5px solid transparent;
+    top: 256px;
+    left: 323px;
+}
+.triangle-bottom-right.one{
+    position: absolute;
+    border-bottom: 24px solid rgb(255, 206, 34);
+    border-left: 15px solid transparent;
+    top: 232px;
+    left: 215px;
+}
+.triangle-bottom-right.two{
+    position: absolute;
+    border-bottom: 16px solid rgb(255, 206, 34);
+    border-left: 13px solid transparent;
+    top: 240px;
+    left: 292px;
+}
