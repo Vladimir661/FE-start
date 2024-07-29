@@ -65,14 +65,14 @@ z-index: 5;
     position: absolute;
     border-top: 11px solid rgb(33, 55, 252);
     border-right: 11px solid transparent;
-    top: 256px;
+    top: 255px;
     left: 174px;
 }
 .triangle-top-left.two{
     position: absolute;
     border-top: 10px solid rgb(33, 55, 252);
     border-right: 9px solid transparent;
-    top: 256px;
+    top: 255px;
     left: 250px;
     z-index: 4;
 }
@@ -80,20 +80,20 @@ z-index: 5;
     position: absolute;
     border-top: 11.5px solid rgb(33, 55, 252);
     border-right: 17.5px solid transparent;
-    top: 256px;
+    top: 255px;
     left: 323px;
 }
 .triangle-bottom-right.one{
     position: absolute;
     border-bottom: 24px solid rgb(255, 206, 34);
     border-left: 15px solid transparent;
-    top: 232px;
+    top: 233px;
     left: 215px;
 }
 .triangle-bottom-right.two{
     position: absolute;
     border-bottom: 16px solid rgb(255, 206, 34);
     border-left: 13px solid transparent;
-    top: 240px;
+    top: 241px;
     left: 292px;
 }
