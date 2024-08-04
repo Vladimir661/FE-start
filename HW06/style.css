@@ -193,7 +193,7 @@ h2 span{
     justify-content: space-between;
 }
 .sixteen{
-    top: 950px;
+    bottom: 10%;
     right: 0px;
     position: fixed;
     display: flex;
