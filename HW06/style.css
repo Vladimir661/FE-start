@@ -193,9 +193,9 @@ h2 span{
     justify-content: space-between;
 }
 .sixteen{
-    margin-top: 100px;
+    top: 950px;
     right: 0px;
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
