@@ -67,7 +67,6 @@ nav{
     display: grid;
     grid-template-columns: 2fr 2fr;
     width: 100%;
-    height: 5vh;
     align-items: center;
 }
 .nav-menu{
@@ -81,7 +80,7 @@ nav{
 }
 main{
     width: 100%;
-    min-height: 75vh;
+    /* min-height: 75vh; */
 }
 .main{
     color: rgb(72, 85, 91);
@@ -176,11 +175,10 @@ section{
 .section-title{
     display: grid;
     text-align: center;
-    padding: 120px 0 0 0;
+    padding: 95px 0 25px 0;
 }
 footer{
     width: 100%;
-    height: 28vh;
     background: rgb(23, 24, 25);
 }
 .footer-wrapper{
@@ -190,7 +188,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    padding: 30px 246px 0 246px;
+    padding: 25px 246px 0 246px;
     text-align: end;
 }
 .title-footer-h{
@@ -219,6 +217,9 @@ footer{
 .button-footer{
     text-align: left;
 }
+.down-footer{
+    padding: 10px 0 10px 0;
+}
 .down-footer-h{
     margin: 0;
     text-align: center;
@@ -231,7 +232,7 @@ footer{
     column-gap: 70px;
 }
 .center-footer{
-    padding: 29px 0 23px 0;
+    padding: 20px 0 5px 0;
 }
 .text-center-footer h5,p{
     margin: 0;
@@ -288,7 +289,6 @@ footer{
     }
     .menu{
         display: block;
-        height: 10vh;
     }
     .nav-logo{
         padding: 10px 0 0 0;
@@ -408,49 +408,25 @@ footer{
 }
 @media (768px<= width <=1024px){
     body{
+        width: fit-content;
         min-height: 600px;
-    }
-    main{
-        min-height: 48vh;
     }
     .up-footer{
         padding: 30px 200px 0 200px;
     }
-    section{
-        height: 34vh;
-    }
-    footer{
-        height: 33vh;
-    }
 }
 @media (1024px<= width <=1270px){
     body{
+        width: fit-content;
         min-height: 600px;
-    }
-    main{
-        min-height: 25vh;
-    }
-    .menu{
-        height: 10vh;
-    }
-    section{
-        height: 42vh;
     }
     .section-title{
         padding: 30px 0 0 0;
     }
-    footer{
-        height: 19vh;
-    }
 }
 @media (1280px<= width <=1440px){
     body{
+        width: max-content;
         min-height: 800px;
-    }
-    section{
-        height: 48vh;
-    }
-    footer{
-        height: 41vh;
     }
 }
