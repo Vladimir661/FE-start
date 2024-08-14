@@ -4,7 +4,7 @@
 body{
     margin: 0 auto;
     width: 1440px;
-    min-height: 2810px;
+    /* min-height: 2810px; */
 }
 .open-sans-regular {
     font-family: "Open Sans", sans-serif;
@@ -160,7 +160,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 30vh;
+    min-height: 30vh;
 }
 .section{
     color: rgb(72, 85, 91);
