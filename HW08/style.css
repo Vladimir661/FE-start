@@ -3,7 +3,7 @@
 }
 body{
     margin: 0 auto;
-    width: 1440px;
+    min-width: 100%;
     /* min-height: 2810px; */
 }
 .open-sans-regular {
@@ -94,7 +94,7 @@ main{
     grid-column-start: 2;
     grid-column-end: 3;
     padding: 0 0 96px 0;
-    text-align: end;
+    text-align: center;
 }
 .story-text:nth-child(2){
     display: grid;
@@ -236,15 +236,15 @@ footer{
 }
 .text-center-footer h5,p{
     margin: 0;
-    font-size: 8px;
+    font-size: 20px;
 }
 .footer-p{
-    font-size: 8px;
-    line-height: 13px;
+    font-size: 9px;
+    line-height: 30px;
 }
 .p-size{
-    font-size: 8px;
-    line-height: 13px;
+    font-size: 9px;
+    line-height: 20px;
 }
 .text-center-footer:nth-child(1){
     display: grid;
@@ -280,7 +280,7 @@ footer{
     padding: 0 0 10px 0;
 }
 
-@media (340px<= width <=540px){
+@media (max-width:800px){
     body{
         width: 100%;
     }
@@ -368,6 +368,9 @@ footer{
     .input-footer{
         padding: 15px;
     }
+    ::placeholder{
+        text-align: center;
+    }
     .centre-footer-wtapper{
         display: flex;
         flex-direction: row;
@@ -393,7 +396,7 @@ footer{
     .text-center-footer:nth-child(6){
         display: flex;
         padding: 10px 0 10px 0;
-        column-gap: 125px;
+        column-gap: 40px;
     }
     .h-padding{
         padding: 0;
@@ -406,27 +409,28 @@ footer{
         background: rgb(23, 24, 25);
     }
 }
-@media (768px<= width <=1024px){
+@media (820px<= width <=1350px){
     body{
-        width: fit-content;
-        min-height: 600px;
+        width: 100%;
+    }
+    .h-story-text{
+        font-size: 16px;
+    }
+    .text-center-footer h5, p{
+        font-size: 10px;
     }
     .up-footer{
         padding: 30px 200px 0 200px;
     }
-}
-@media (1024px<= width <=1270px){
-    body{
-        width: fit-content;
-        min-height: 600px;
+    .title-footer{
+        text-align: center;
     }
-    .section-title{
-        padding: 30px 0 0 0;
+    .footer-p{
+        font-size: 8px;
+        line-height: 9px;
     }
-}
-@media (1280px<= width <=1440px){
-    body{
-        width: max-content;
-        min-height: 800px;
+    .p-size{
+        font-size: 8px;
+        line-height: 10px;
     }
 }
