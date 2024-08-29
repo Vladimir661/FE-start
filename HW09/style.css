@@ -237,7 +237,6 @@ header{
     .container{
         display: flex;
         flex-direction: column;
-        width: 100%;
         gap: 20px;
         padding: 20px 0;
     }
@@ -350,7 +349,6 @@ header{
     .container{
         display: flex;
         flex-direction: column;
-        width: 100%;
         gap: 20px;
         padding: 20px 0;
     }
